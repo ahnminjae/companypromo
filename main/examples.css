@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
@@ -59,12 +60,14 @@ body{
 	position: relative;
 }
 h1{
+  font-family: 'Nanum Gothic', sans-serif;
     margin-left: 10%;
 	font-size: 4em;
 }
 p{
+  font-family: 'Nanum Gothic', sans-serif;
     margin-left: 15%;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	line-height: 2em;
 }
 .intro p{
