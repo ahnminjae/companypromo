@@ -448,7 +448,7 @@ text-align: center;
     
 .exampleSlider {
   position: relative;
-  border: 1px solid black;
+ /* border: 1px solid black;*/
 }
 @media (max-width: 767px) {
   .exampleSlider {
@@ -456,10 +456,10 @@ text-align: center;
   }
 }
 .exampleSlider .MS-content {
-  margin: 15px 5%;
+  margin: 1px 1%;
   overflow: hidden;
   white-space: nowrap;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 @media (max-width: 767px) {
   .exampleSlider .MS-content {
@@ -472,7 +472,7 @@ text-align: center;
   overflow: hidden;
   position: relative;
   vertical-align: top;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   border-right: none;
   width: 20%;
 }
@@ -492,7 +492,7 @@ text-align: center;
   }
 }
 .exampleSlider .MS-content .item p {
-  font-size: 30px;
+  font-size: 13px;
   text-align: center;
   line-height: 1;
   vertical-align: middle;
@@ -503,9 +503,9 @@ text-align: center;
   position: absolute;
   border: none;
   background: transparent;
-  font-size: 30px;
+  font-size: 50px;
   outline: 0;
-  top: 35px;
+  top: 85px;
 }
 @media (max-width: 767px) {
   .exampleSlider .MS-controls button {
@@ -535,4 +535,16 @@ text-align: center;
 .item { width: 20%; }
 .item { width: 33.333%; }
 .item { width: 50%; }
+.item p{
+  font-family:'Nanum Gothic', sans-serif;
+  font-size: 0.1em;
+  color:#333;
+}
 
+.img_thumbnail{
+  width: 226px; 
+  height: 226px; 
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+}
